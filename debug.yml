@@ -1,0 +1,11 @@
+- hosts: target
+  tasks:
+    - name: debug
+      debug:
+        var: hostvars[inventory_hostname]['ansible_distribution']
+
+
+- hosts: ns
+  tasks:
+    - name: hello
+      debug:

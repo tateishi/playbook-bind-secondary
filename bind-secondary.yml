@@ -1,0 +1,5 @@
+- hosts: ns
+  become: true
+  roles:
+    - apt-upgrade
+    - bind-secondary
