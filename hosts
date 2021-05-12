@@ -1,8 +1,13 @@
-[target]
-ns1
-ns3
+# -*- mode: yaml -*-
 
-[ns]
-ns1
-ns2
-ns3
+target:
+  hosts:
+    ns1:
+    ns3:
+
+ns:
+  hosts:
+    ns1:
+    ns2:
+      ansible_python_interpreter: /usr/bin/python3
+    ns3:
