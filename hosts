@@ -2,12 +2,8 @@
 
 target:
   hosts:
-    ns1:
-    ns3:
+    ns0:
 
 ns:
   hosts:
-    ns1:
-    ns2:
-      ansible_python_interpreter: /usr/bin/python3
-    ns3:
+    ns0:
