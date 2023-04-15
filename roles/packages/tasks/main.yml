@@ -1,0 +1,8 @@
+---
+# tasks file for packages
+
+- name: install common packages
+  become: true
+  apt:
+    name: "{{ packages }}"
+    update_cache: true

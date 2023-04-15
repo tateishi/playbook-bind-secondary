@@ -1,0 +1,8 @@
+---
+# defaults file for packages
+
+packages:
+  - git
+  - tmux
+  - htop
+  - bash-completion

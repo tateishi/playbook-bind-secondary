@@ -1,4 +1,3 @@
-- hosts: ns
-  become: true
+- hosts: target
   roles:
     - bind-secondary

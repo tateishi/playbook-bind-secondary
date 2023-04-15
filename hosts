@@ -3,7 +3,5 @@
 target:
   hosts:
     ns0:
-
-ns:
-  hosts:
-    ns0:
+    ns1:
+    ns3:
